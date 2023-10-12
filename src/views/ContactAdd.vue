@@ -1,6 +1,6 @@
 <template>
     <div class="page">
-        <h4>Thêm Liên hệ</h4>
+        <h4>Hiệu Chỉnh Liên Hệ</h4>
         <ContactForm @submit:contact="createContact" />
         <p>{{ message }}</p>
     </div>
