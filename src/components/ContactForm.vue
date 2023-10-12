@@ -69,8 +69,6 @@
 <script>
 import * as yup from "yup";
 import { Form, Field, ErrorMessage } from "vee-validate";
-import './ContactForm.vue';
-
 export default {
     components: {
         Form,
@@ -129,7 +127,6 @@ export default {
     },
 };
 </script>
-
 <style scoped>
 @import "../assets/form.css";
 </style>
